@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
-import { TaskStatus } from '../task-status.model';
+import { TaskStatus } from './task-status.model';
 
 @Entity()
 export class Task {

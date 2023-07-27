@@ -10,7 +10,8 @@ export class AuthService {
     private usersRepository: UsersRepository,
   ) {}
 
-  async signUp(AuthCredentialsDto: AuthCredentialsDto): Promise<void> {
-    return this.usersRepository.createUser(AuthCredentialsDto);
+  async signUp(AuthCredentialsDto: AuthCredentialsDto): Promise<any> {
+    await this.usersRepository.createUser(AuthCredentialsDto);
+    return 'User Created';
   }
 }
