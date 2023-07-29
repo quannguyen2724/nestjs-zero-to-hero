@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { DataSource, EntityRepository, Repository } from 'typeorm';
-import { Task } from './task.entity';
+import { Task } from '../task.entity';
 import { Injectable } from '@nestjs/common';
 import { CreateTaskDto } from './create-task.dto';
 import { TaskStatus } from '../task-status.model';

@@ -13,7 +13,7 @@ import { TaskStatus } from './task-status.model';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
-import { Task } from './dto/task.entity';
+import { Task } from './task.entity';
 
 @Controller('tasks')
 export class TasksController {
